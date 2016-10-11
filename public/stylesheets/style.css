@@ -183,3 +183,4 @@ table, th, td {
   width: 100%;
   border: 1px solid white;
 }
+td.alt { background-color: #ffc; background-color: rgba(255, 255, 0, 0.2); }

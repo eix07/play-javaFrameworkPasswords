@@ -10,9 +10,9 @@ import FrameworkAnotaciones.FixedWidthField;
 public class Person {
     @FixedWidthField(width = 20) String firstName;
     @FixedWidthField(width = 20) String lastName;
-    @FixedWidthField(width = 20) String email;
-    @FixedWidthField(width = 10) String password;
-    @FixedWidthField(width = 80) String totalPass;
+    @FixedWidthField(width = 50) String email;
+    @FixedWidthField(width = 16) String password;
+    @FixedWidthField(width = 120) String totalPass;
 
     public Person(String firstName, String lastName, String email, String password) {
         this.firstName = firstName;
